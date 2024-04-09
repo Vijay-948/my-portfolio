@@ -12,6 +12,7 @@ const Profile = () => {
 
         <div className="section__text">
             <p className="section__text__p1">Hello I'm</p>
+            <p className="title">Kogilathota Vijay Reddy</p>
             <p class="section__text__p2">Full Stack Developer</p>
             <div className="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assests/Vijay Reddy .pdf')">Download CV</button>

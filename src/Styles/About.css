@@ -1,0 +1,9 @@
+
+.index {
+    z-index: -1;
+    color: black !important;
+}
+
+.vertical-timeline-element--work {
+    color: red !important;
+}
