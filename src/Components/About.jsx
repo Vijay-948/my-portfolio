@@ -6,7 +6,7 @@ import  WorkIcon  from '../Assests/github.png';
 
 const About = () => {
     return(
-        <section>
+        <section id='about'>
             <VerticalTimeline className='index'>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"

@@ -1,4 +1,5 @@
 import About from "./About";
+import CodingProfiles from "./CodingProfiles";
 import Navbar from "./Navbar";
 import Profile from "./Profile";
 import Skills from "./Skills";
@@ -12,6 +13,7 @@ const Home = () => {
         <Profile /> 
         <About />   
         <Skills />    
+        <CodingProfiles />
         </>
     )
     
