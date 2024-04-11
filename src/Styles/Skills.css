@@ -27,8 +27,10 @@ section {
 .skills__img__container  { 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 40px;
+    grid-gap: 1px;
     align-items: center;
+    gap: 1rem;
+
     
 }
 
@@ -48,10 +50,16 @@ section {
     color: rgb(69, 69, 69);
 }
 
-@media screen and (max-width: 600){
+@media screen and (max-width: 600px){
+    #skills {
+        padding-top: 20vh;
+        height: 108vh;
+    }
 
-    .skills__img__container  { 
+    .skills__img__container  {
+        display: grid; 
         grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
         
         
     }
