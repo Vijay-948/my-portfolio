@@ -1,10 +1,10 @@
-section {
+/* section {
     padding-top: 2 0vh;
     height: 108vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
-}
+} */
 
 #about {
     display: flex;

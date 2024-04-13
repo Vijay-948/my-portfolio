@@ -1,14 +1,14 @@
-section {
+/* section {
     padding-top: 20vh;
     height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
-}
+} */
 
-.section-container {
+/* .section-container {
     display: flex;
-}
+} */
 
 #profile {
     display: flex;
