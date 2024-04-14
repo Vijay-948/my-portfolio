@@ -7,46 +7,51 @@ import '../Styles/Contact.css';
 import CallIcon from '@mui/icons-material/Call';
 import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Contact = () => {
     const formik = useFormik({
         initialValues: {
-            name: '',
-            email: '',
+            from_name: '',
+            from_email: '',
             message: ''
         },
 
         validationSchema: Yup.object({
-            name: Yup.string().required('name Required'),
-            email: Yup.string().email('Invalid email').required('Required'),
-            message: Yup.string().required('Required')
+            from_name: Yup.string().required('Invalid Name!'),
+            from_email: Yup.string().email('Invalid E-mail!').required('Invalid E-mail!'),
+            message: Yup.string().required('Invalid Message!')
         }),
-        // onSubmit: async (values, {setSubmitting, resetForm}) => {
-        //     try{
-        //         await
-        //     }
-        // }
+        onSubmit: (values, {setSubmitting, resetForm}) => {
+            try{
+                sendEmail(values);
+                resetForm();
+                toast.success("Email Sent Successfully");
+                
+            }catch{
+                toast.error("Something Went Wrong.");
+            }finally {
+                setSubmitting(false);
+            }
+        }
     })
 
     const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+   const sendEmail =  () => {
 
-    emailjs
-      .sendForm('service_crmsmh4', 'template_yyqupcs', form.current, {
-        publicKey: 'auwB11NMgJ3j1csot',
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
-  };
+    try {
+        emailjs.sendForm('service_crmsmh4', 'template_yyqupcs', form.current, {
+            publicKey: 'auwB11NMgJ3j1csot',
+        });
+    } catch (error) {
+        console.error('Error sending email:', error);
+        throw new Error('Failed to send email');
+    }
+   };
     return(
         <>
+        <ToastContainer />
         <section className="contact-page">
             <div className="container">
                 <div className="contact-div">
@@ -65,21 +70,51 @@ const Contact = () => {
                     </div>
 
                     <div className="contact-div__form">
-                        <form ref={form} onSubmit={sendEmail}>
+                        <form ref={form} onSubmit={formik.handleSubmit}>
                             <label>
                                 Full Name <b>*</b>
                             </label>
-                            <input type="text" placeholder="Vijay Reddy" name='from_name'></input>
+                            <input type="text"
+                                id='name' 
+                                placeholder="Vijay Reddy" 
+                                name='from_name'
+                                onChange={formik.handleChange}
+                                onBlur={formik.handleBlur}
+                                value={formik.values.from_name}
+                            />
+
+                            {formik.touched.from_name && formik.errors.from_name ? (
+                                <span className='error' style={{color: 'red', fontFamily: 'poppins,sanserif', fontWeight:'600', marginTop:'-30px'}}>{formik.errors.from_name}</span>
+                            ): null}
 
                             <label>
                                 Email <b>*</b>
                             </label>
-                            <input type="email" placeholder="example@gmail.com" name='from_email'></input>
-
+                            <input type="email" 
+                                placeholder="example@gmail.com" 
+                                name='from_email'
+                                id='email' 
+                                onChange={formik.handleChange} 
+                                onBlur={formik.handleBlur} 
+                                value={formik.values.from_email}
+                            />
+                            {formik.touched.from_email && formik.errors.from_email ? (    
+                                <span className='error' style={{color: 'red', fontFamily: 'poppins,sanserif', fontWeight:'600', marginTop:'-30px'}}>{formik.errors.from_email}</span>
+                            ): null}
+     
                             <label>
                                 Your Message <b>*</b>
                             </label>
-                            <textarea placeholder="Write Something Here..." name='message'></textarea>
+                            <textarea placeholder="Write Something Here..."
+                                name='message'
+                                onChange={formik.handleChange}
+                                onBlur={formik.handleBlur}
+                                value={formik.values.message}
+                            >
+                            </textarea>
+                            {formik.touched.message && formik.errors.message ? (
+                                <span className='error' style={{color: 'red', fontFamily: 'poppins,sanserif', fontWeight:'600', marginTop:'-30px'}}>{formik.errors.message}</span>
+                            ): null}
 
                             <button type="submit">
                                 <i className="fa-solid fa-envelope-open-text"></i>&nbsp; Send

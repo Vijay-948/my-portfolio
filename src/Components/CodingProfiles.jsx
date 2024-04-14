@@ -15,8 +15,6 @@ const CodingProfiles = () => {
         <section id='coding-profile'>
             <p class="section__text__p1">Problem Solving</p>
             <h1 class="title">Coding</h1>
-            {}
-            {}
             <VerticalTimeline  className="index" lineColor='none'>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
