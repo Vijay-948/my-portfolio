@@ -10,11 +10,11 @@ const Home = () => {
 
     return(
         <>
-        {/* <Navbar />
+        <Navbar />
         <Profile /> 
         <About />   
         <Skills />    
-        <CodingProfiles /> */}
+        <CodingProfiles />
         <Contact />
         </>
     )
