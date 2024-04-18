@@ -18,12 +18,11 @@ const About = () => {
                 iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
                 // icon={WorkIcon}
               >
-                <img src={WorkIcon} alt="Work Icon" style={{width:"20px"}}/>
-                <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-                <p>
-                    Creative Direction, User Experience, Visual Design, Project
-                    Management, Team Leading
+                <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
+                <h4 className="vertical-timeline-element-subtitle">People Tech Group, Hyderabad, India</h4>
+                <p style={{textAlign: 'justify'}}>
+                  <li style={{textAlign: 'center' }}>Developing and maintaining web applications using React.js, Spring Boot, PostgressSQL and other related technologies. </li>
+                  <li style={{textAlign: 'center' }}> Collaborated with the team to ensure seamless integration of front-end and back-end functionalities and deploying.</li>
                 </p> 
               </VerticalTimelineElement>
               <VerticalTimelineElement
