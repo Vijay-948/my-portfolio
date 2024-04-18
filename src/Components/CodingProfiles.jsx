@@ -40,7 +40,7 @@ const CodingProfiles = () => {
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    iconStyle={{ backgroundImage: `url(${geeksforgeeks})`, backgroundSize: '90px', backgroundRepeat:'no-repeat', color: 'red' }}
+                    iconStyle={{ backgroundImage: `url(${geeksforgeeks})`, backgroundSize: '70px', backgroundRepeat:'no-repeat', justifySelf:'center' }}
                 >
                     <h3 className="vertical-timeline-element-title">GeeksforGeeks</h3>
                     <p></p>
