@@ -10,13 +10,19 @@
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 11  0vh;
+    height: 210vh;
 }
 .index {
     z-index: -1;
     color: black !important;
+    /* padding-top: 30vh !important; */
+
 }
+
+
 
 .vertical-timeline-element--work {
     color: red !important;
+    /* background: rgb(66, 145, 205); */
 }
+
