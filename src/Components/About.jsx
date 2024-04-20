@@ -9,7 +9,7 @@ import degree from '../Assests/degree-icon.png';
 const About = () => {
     return(
         <section id='about'>
-            <VerticalTimeline className='index'>
+            <VerticalTimeline className='index' lineColor='none'>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: "#e6e6e5", color: "black" }}
@@ -19,7 +19,7 @@ const About = () => {
                 // icon={WorkIcon}
                 iconStyle={{ backgroundImage: `url(${ptg})`, backgroundSize: 'cover', color: 'red', backgroundRepeat: 'no-repeat' }}
               >
-                <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
+                <h3 className="vertical-timeline-element-title" style={{color: 'rgb(33, 150, 243)'}}>Full Stack Developer</h3>
                 <h4 className="vertical-timeline-element-subtitle">People Tech Group, Hyderabad, India</h4>
                 <p>
                   <ul>
@@ -75,13 +75,13 @@ const About = () => {
                 <h4 className="vertical-timeline-element-subtitle">Lovely Professional University, Punjab, India</h4>
                 <p>
                 <strong>
-                      Technologies and Coursework
+                  Technologies and Coursework
                 </strong>
                 <ul>
                   <li>Java</li>
                   <li>Data Structures & Algorithms</li>
-                  <li>Databse Management System</li>
-                  <li>Computer Networks</li>
+                  <li>Database Management System</li>
+                  <li>Computer Network</li>
                 </ul>        
                 </p> 
               </VerticalTimelineElement>

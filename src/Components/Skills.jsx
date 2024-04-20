@@ -27,7 +27,6 @@ const Skills = () => {
         <section id='skills'>
             <p class="section__text__p1">Explore My</p>
             <h1 class="title">Skills</h1>
-            {/* <h3>Explore My Skills</h3>  */}
             <div className="skills__img__container">
                 {languageandTools.map((item) =>(
                     <div className="skills__img">
