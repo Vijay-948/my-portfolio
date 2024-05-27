@@ -10,12 +10,12 @@ const Home = () => {
 
     return(
         <>
-        <Navbar />
+        {/* <Navbar />
         <Profile /> 
         <About />   
-        <Skills />    
+        <Skills />     */}
         <CodingProfiles />
-        <Contact />
+        {/* <Contact /> */}
         </>
     )
     

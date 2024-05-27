@@ -13,7 +13,7 @@
 
 
 .index {
-    z-index: -1;
+    z-index: 1;
 }
 
 
@@ -23,7 +23,7 @@
     padding: 0.7rem 0.7rem;
     border-radius: 20rem;
     border: 20px red;
-    transition: all 0.3s;
+    transition: color 0.3 ease;
     cursor: pointer;
 }
 
@@ -35,4 +35,11 @@
 /* a {
     color: red;
 } */
+
+.links:hover .icon {
+    color: green;
+}
+
+
+
 
