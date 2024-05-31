@@ -6,6 +6,7 @@ import Profile from "./Profile";
 import Project from "./Project";
 import ProjectCard from "./ProjectCard";
 import Skills from "./Skills";
+import Work from "./Work";
 
 
 const Home = () => {
@@ -19,7 +20,8 @@ const Home = () => {
         {/* <CodingProfiles /> */}
         {/* <Contact /> */}
             {/* <Project /> */}
-        <ProjectCard />
+            <ProjectCard />
+         {/* <Work /> */}
         </>
     )
     

@@ -1,6 +1,6 @@
 import img1 from '../Assests/ProjectCardImages/Car-Rental.jpg';
 
-const ProjectDetails = [
+const ProjectData = [
     {
         name: "Full Stack Project",
         description: "hgdagkhahgkadg",
@@ -27,7 +27,7 @@ const ProjectDetails = [
             { name: "Java", color: "blue" },
             {name: "MySQL", color: "blue"}
         ],
-        image: {img1},
+        image: img1,
         soruce_code_link: "",
         live_website_link: ""
     },
@@ -42,7 +42,7 @@ const ProjectDetails = [
             { name: "Java", color: "blue" },
             {name: "MySQL", color: "blue"}
         ],
-        image: {img1},
+        image: img1,
         soruce_code_link: "",
         live_website_link: ""
     },
@@ -57,8 +57,10 @@ const ProjectDetails = [
             { name: "Java", color: "blue" },
             {name: "MySQL", color: "blue"}
         ],
-        image: {img1},
+        image: img1,
         soruce_code_link: "",
         live_website_link: ""
     }
 ]
+
+export default ProjectData;
