@@ -1,14 +1,13 @@
 import React from 'react';
 import ProjectData from './ProjectData';
 import { Tilt } from 'react-tilt';
-import { Scale } from '@mui/icons-material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 
 const ProjectCard = () => {
     return (
-        <section className="relative py-8 px-4 lg:px-16">
+        <section id='projects' className="relative py-8 px-4 lg:px-16 -z-1 mt-10">
             <div className="text-center">
                 <p className="text-xl font-semibold">Browse My Recent</p>
                 <h1 className='text-4xl font-semibold mt-3'>Projects</h1>
