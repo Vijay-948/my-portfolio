@@ -7,7 +7,7 @@ import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 const ProjectCard = () => {
     return (
-        <section id='projects' className="relative py-8 px-4 lg:px-16 -z-1 mt-10">
+        <section id='projects' className="relative py-8 px-4 lg:px-16 -z-1 mt-10 bg-gray-900">
             <div className="text-center">
                 <p className="text-xl font-semibold">Browse My Recent</p>
                 <h1 className='text-4xl font-semibold mt-3'>Projects</h1>

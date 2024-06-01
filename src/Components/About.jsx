@@ -8,7 +8,7 @@ import degree from '../Assests/degree-icon.png';
 
 const About = () => {
     return(
-        <section id='about'>
+        <section id='about' className='bg-gray-900'>
             <VerticalTimeline className='index' lineColor='none'>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
