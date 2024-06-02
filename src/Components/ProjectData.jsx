@@ -7,7 +7,7 @@ const ProjectData = [
         technologies: [
             { name: "React", color: "blue" },
             { name: "Tailwindcss", color: "green" },
-            { name: "Spring Boot", color: "green" },
+            { name: "Spring Boot", color: "green" },    
             {name: "MySQL", color: "blue"}
         ],
         image: img1,

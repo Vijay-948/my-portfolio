@@ -2,7 +2,7 @@
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -29,8 +29,8 @@ const Navbar = () => {
             </div>
 
             <div className='lg:hidden fixed w-full bg-gray-800 text-white shadow-2xl z-10'>
-                <nav className='flex justify-between items center h-16 px-4'>
-                    <div className='text-2xl font-semibold'>Vijay Reddy</div>
+                <nav className='flex justify-between items-center h-16 px-4'>
+                    <div className='text-2xl font-semibold'>Kogilathota Vijay Reddy</div>
                     <div className='relative'>
                         <div className='cursor-pointer' onClick={toggleMenu}>
                             {openMenu ? <CloseIcon fontSize='large' /> : <MenuIcon fontSize='large' />}

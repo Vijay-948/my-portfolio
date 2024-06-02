@@ -5,8 +5,7 @@ import github from '../Assests/github.png';
 // import GitHubIcon from '@mui/icons-material/GitHub';
 import leetcode from '../Assests/leetcode.png';
 import geeksforgeeks from '../Assests/GeeksforGeeks.png';
-import LaunchIcon from '@mui/icons-material/Launch';
-// import '../Styles/CodingProfiles.css';   
+import LaunchIcon from '@mui/icons-material/Launch'; 
 import { Link } from 'react-router-dom';
 
 const CodingProfiles = () => {
