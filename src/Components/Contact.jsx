@@ -52,7 +52,7 @@ const Contact = () => {
     return(
         <>
         <ToastContainer />
-        <section className="contact-page">
+        <section id='contact' className="contact-page">
             <div className="container">
                 <div className="contact-div">
                     <div className="contact-div__text">

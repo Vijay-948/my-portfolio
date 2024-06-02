@@ -14,8 +14,8 @@ const Home = () => {
         <Navbar />
         <Profile  /> 
         <About />   
+        <ProjectCard element={'#projects'} /> 
         <Skills /> 
-        <ProjectCard element={'#projects'}/> 
         <CodingProfiles />  
         <Contact />
             

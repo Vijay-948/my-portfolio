@@ -7,11 +7,11 @@ import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 const ProjectCard = () => {
     return (
-        <section id='projects' className="relative py-8 px-4 lg:px-16 -z-1 mt-10 bg-gray-900">
+        <section id='projects' className="py-8 px-4 lg:px-16 bg-gray-600">
             <div className="text-center">
-                <p className="text-xl font-semibold">Browse My Recent</p>
-                <h1 className='text-4xl font-semibold mt-3'>Projects</h1>
-                <p className='text-center mt-8'>
+                <p className="text-xl font-semibold text-white">Browse My Recent</p>
+                <h1 className='text-4xl font-semibold mt-3 text-white'>Projects</h1>
+                <p className='text-center mt-8 font-poppins text-white font-semibold'>
                     Following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
                 </p>
             </div>
