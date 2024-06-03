@@ -1,4 +1,5 @@
 import img1 from '../Assests/ProjectCardImages/Car-Rental.jpg';
+import img2 from '../Assests/ProjectCardImages/image.png';
 
 const ProjectData = [
     {
@@ -10,7 +11,7 @@ const ProjectData = [
             { name: "Spring Boot", color: "green" },    
             {name: "MySQL", color: "blue"}
         ],
-        image: img1,
+        image: img2,
         soruce_code_link: "",
         live_website_link: ""
     },
