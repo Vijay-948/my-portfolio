@@ -28,7 +28,7 @@ const ProjectCard = () => {
                                 <h4 className='text-xl font-semibold m-2'>{project.name}</h4>
                                 <img src={project.image} alt={`Project $(index + 1)`} className='w-11/13 h-70 object-cover rounded-2xl mb-4 shadow-2xl' />
                                 <p className='text-gray-400 mb-1 p-2'>{project.description}</p>
-                                <div className="flex justify-start mb-4 text-start">
+                                <div className="flex mb-4 text-red-500 font-semibold">
                                     {project.technologies.map((techStack, indx) => (
                                         <span key={indx} className={`text${techStack.color}-600 mx-1`}>#{techStack.name}</span>
                                     ))}

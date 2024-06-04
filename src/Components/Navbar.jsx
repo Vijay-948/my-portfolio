@@ -17,8 +17,8 @@ const Navbar = () => {
         <>
             <div className='fixed w-full bg-gray-800 text-white p-5 shadow-2xl rounded-lg z-10'>
                 <nav className='hidden lg:flex justify-around items-center h-16'>
-                <div className='text-2xl font-semibold'>Kogilathota Vijay Reddy</div>
-                    <ul className='flex gap-8 list-none text-2xl'>
+                <div className='text-3xl font-semibold'>Kogilathota Vijay Reddy</div>
+                    <ul className='flex gap-8 list-none text-2xl font-semibold'>
                     <li><a href='#about' className='hover:text-red-500'>About</a></li>
                     <li><a href='#projects' className='hover:text-red-500'>Projects</a></li>
                     <li><a href='#skills' className='hover:text-red-500'>Skills</a></li>
