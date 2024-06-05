@@ -122,17 +122,17 @@
 }
 
 .contact-div__form button {
-    background-color: #483D8B;
-    padding: 1.8rem 3rem;
-    border-radius: 0.5rem;
+    background-color: #273d68;
+    padding: 0.8rem 0.8rem;
+    border-radius: 2.5rem;
     box-shadow: 0 10px 15px 0 rgba(48, 145, 255, 0.35);
     transition: all 0.3s;
-    border: 2px solid #309bff;
+    border: 10px solid #28498a;
     color: white;
     font-size: 1.3rem;
     font-weight: 600;
     cursor: pointer;
-    width: 220px;
+    width: 189px;
 
 }
   

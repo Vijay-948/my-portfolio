@@ -26,7 +26,7 @@ const ProjectCard = () => {
                         <div className="bg-gray-100 rounded-xl shadow-xl p-6 Tilt-inner transform transistion duration-500 hover:scale-105">
                             <div className="flex flex-col items-center">
                                 <h4 className='text-xl font-semibold m-2'>{project.name}</h4>
-                                <img src={project.image} alt={`Project $(index + 1)`} className='w-11/13 h-70 object-cover rounded-2xl mb-4 shadow-2xl' />
+                                <img src={project.image} alt={`Project $(name)`} className='w-11/13 h-70 object-cover rounded-2xl mb-4 shadow-2xl' />
                                 <p className='text-gray-400 mb-1 p-2'>{project.description}</p>
                                 <div className="flex mb-4 text-red-500 font-semibold">
                                     {project.technologies.map((techStack, indx) => (

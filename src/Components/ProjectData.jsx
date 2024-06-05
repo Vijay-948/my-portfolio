@@ -4,7 +4,7 @@ import img2 from '../Assests/ProjectCardImages/image.png';
 const ProjectData = [
     {
         name: "Full Stack Project",
-        description: "Following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
+        description: "Developed a secure e-commerce platform with React, Spring Boot, Java, and MySQL, featuring OTP-based email verification. Integrated Spring Security for robust authentication and authorization. Deployed the application on AWS for scalable and reliable performance.",
         technologies: [
             { name: "React", color: "blue" },
             { name: "Tailwindcss", color: "green" },
@@ -51,7 +51,7 @@ const ProjectData = [
             
             {name: "MySQL", color: "blue"}
         ],
-        image: img1,
+        image: '',
         soruce_code_link: "https://github.com/Vijay-948/Transaction-Management-System",
         live_website_link: ""
     }
