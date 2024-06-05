@@ -6,7 +6,7 @@ import github from '../Assests/github.png';
 import leetcode from '../Assests/leetcode.png';
 import geeksforgeeks from '../Assests/GeeksforGeeks.png';
 import LaunchIcon from '@mui/icons-material/Launch'; 
-import { Link } from 'react-router-dom';
+
 
 const CodingProfiles = () => {
     return (
