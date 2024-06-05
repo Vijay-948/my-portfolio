@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import Profile from "./Profile";
 import ProjectCard from "./ProjectCard";
 import Skills from "./Skills";
+import Footer from "./Footer";
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
         <Skills /> 
         <CodingProfiles />  
         <Contact />
+        <Footer/>
             
         {/* <CodingProfiles /> */}
         {/* <Contact /> */}
