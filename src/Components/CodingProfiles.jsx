@@ -7,7 +7,6 @@ import leetcode from '../Assests/leetcode.png';
 import geeksforgeeks from '../Assests/GeeksforGeeks.png';
 import LaunchIcon from '@mui/icons-material/Launch'; 
 
-
 const CodingProfiles = () => {
     return (
         <section id='coding' className="py-20 px-10 md:px-40 min-h-screen flex flex-col items-center color-white bg-gray-600 -mt-40">
