@@ -45,7 +45,6 @@ const ProjectCard = () => {
                         </div>
                     </Tilt>
                 ))}
-
             </div>
 
         </section>

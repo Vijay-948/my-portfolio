@@ -1,5 +1,7 @@
-import img1 from '../Assests/ProjectCardImages/Car-Rental.jpg';
-import img2 from '../Assests/ProjectCardImages/image.png';
+import projectImg1 from '../Assests/ProjectCardImages/Car-Rental.jpg';
+import projectImg2 from '../Assests/ProjectCardImages/image.png';
+import projectImg3 from '../Assests/ProjectCardImages/project3.png'
+import projectImg4 from '../Assests/ProjectCardImages/project-4.png';
 
 const ProjectData = [
     {
@@ -11,9 +13,9 @@ const ProjectData = [
             { name: "Spring Boot", color: "green" },    
             {name: "MySQL", color: "blue"}
         ],
-        image: img2,
+        image: projectImg2,
         soruce_code_link: "https://github.com/Vijay-948/forntend-ui",
-        live_website_link: ""
+        live_website_link: "https://github.com/Vijay-948/forntend-ui"
     },
     {
         name: "Frontend Project",
@@ -24,9 +26,9 @@ const ProjectData = [
             { name: "CSS", color: "green" },
            
         ],
-        image: img1,
+        image: projectImg1,
         soruce_code_link: "https://github.com/Vijay-948/Car-Rental-UI",
-        live_website_link: ""
+        live_website_link: "https://vijay-car-rental.netlify.app/"
     },
     {
         name: "Backend",
@@ -38,9 +40,9 @@ const ProjectData = [
             {name: "Jwt", color:'red'},
             {name: "MySQL", color: "blue"}
         ],
-        image: img1,
+        image: projectImg3,
         soruce_code_link: "https://github.com/Vijay-948/backend-api",
-        live_website_link: ""
+        live_website_link: "https://github.com/Vijay-948/backend-api"
     },
     {
         name: "Backend",
@@ -51,9 +53,9 @@ const ProjectData = [
             
             {name: "MySQL", color: "blue"}
         ],
-        image: '',
+        image: projectImg4,
         soruce_code_link: "https://github.com/Vijay-948/Transaction-Management-System",
-        live_website_link: ""
+        live_website_link: "https://github.com/Vijay-948/Transaction-Management-System"
     }
 ]
 
