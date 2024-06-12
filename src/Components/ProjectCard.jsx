@@ -37,7 +37,7 @@ const ProjectCard = () => {
                                     <a className='bg-blue-900 text-white px-2 py-1 rounded-3xl inline-block mb-4 text-decoration no-underline' href={project.soruce_code_link}>
                                         Code <GitHubIcon sx={{width: '20px', height:'20px', color: 'white'}}/>
                                     </a>
-                                    <a className='bg-blue-900 text-white px-2 py-1 rounded-3xl inline-block mb-4 no-underline' href={project.soruce_code_link}>
+                                    <a className='bg-blue-900 text-white px-2 py-1 rounded-3xl inline-block mb-4 no-underline' href={project.live_website_link}>
                                         Demo <OpenInNewIcon sx={{width: '20px', height:'30px', color: 'white', textDecoration: 'none'}}/>
                                     </a>
                                 </div>

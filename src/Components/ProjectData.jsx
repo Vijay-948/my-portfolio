@@ -15,7 +15,7 @@ const ProjectData = [
         ],
         image: projectImg2,
         soruce_code_link: "https://github.com/Vijay-948/forntend-ui",
-        live_website_link: "https://github.com/Vijay-948/forntend-ui"
+        live_website_link: "https://customer-product.netlify.app"
     },
     {
         name: "Frontend Project",
@@ -28,7 +28,7 @@ const ProjectData = [
         ],
         image: projectImg1,
         soruce_code_link: "https://github.com/Vijay-948/Car-Rental-UI",
-        live_website_link: "https://vijay-car-rental.netlify.app/"
+        live_website_link: "https://vijay-car-rental.netlify.app"
     },
     {
         name: "Backend",
